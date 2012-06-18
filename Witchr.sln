@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Witchr.Core", "Src\Witchr.Core\Witchr.Core.csproj", "{F7846334-0D0B-4C45-A0F3-006F333511ED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{11B3633C-FCEC-4D6D-965D-3140C8ADB404}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{88A79C84-8055-41D9-95CD-0BF572AC241B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Witchr.Core.Tests", "Test\Witchr.Core.Tests\Witchr.Core.Tests.csproj", "{319C5B42-7AD6-40AD-A1E3-DB50954C7AC4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8BA518A8-934A-49B5-9976-AFBC27FF9501}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+		Witchr.vsmdi = Witchr.vsmdi
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Witchr.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7846334-0D0B-4C45-A0F3-006F333511ED}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{F7846334-0D0B-4C45-A0F3-006F333511ED}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{F7846334-0D0B-4C45-A0F3-006F333511ED}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{F7846334-0D0B-4C45-A0F3-006F333511ED}.Debug|x86.ActiveCfg = Debug|x86
+		{F7846334-0D0B-4C45-A0F3-006F333511ED}.Debug|x86.Build.0 = Debug|x86
+		{F7846334-0D0B-4C45-A0F3-006F333511ED}.Release|Any CPU.ActiveCfg = Release|x86
+		{F7846334-0D0B-4C45-A0F3-006F333511ED}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{F7846334-0D0B-4C45-A0F3-006F333511ED}.Release|Mixed Platforms.Build.0 = Release|x86
+		{F7846334-0D0B-4C45-A0F3-006F333511ED}.Release|x86.ActiveCfg = Release|x86
+		{F7846334-0D0B-4C45-A0F3-006F333511ED}.Release|x86.Build.0 = Release|x86
+		{319C5B42-7AD6-40AD-A1E3-DB50954C7AC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{319C5B42-7AD6-40AD-A1E3-DB50954C7AC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{319C5B42-7AD6-40AD-A1E3-DB50954C7AC4}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{319C5B42-7AD6-40AD-A1E3-DB50954C7AC4}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{319C5B42-7AD6-40AD-A1E3-DB50954C7AC4}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{319C5B42-7AD6-40AD-A1E3-DB50954C7AC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{319C5B42-7AD6-40AD-A1E3-DB50954C7AC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{319C5B42-7AD6-40AD-A1E3-DB50954C7AC4}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{319C5B42-7AD6-40AD-A1E3-DB50954C7AC4}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{319C5B42-7AD6-40AD-A1E3-DB50954C7AC4}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F7846334-0D0B-4C45-A0F3-006F333511ED} = {11B3633C-FCEC-4D6D-965D-3140C8ADB404}
+		{319C5B42-7AD6-40AD-A1E3-DB50954C7AC4} = {88A79C84-8055-41D9-95CD-0BF572AC241B}
+		{8BA518A8-934A-49B5-9976-AFBC27FF9501} = {88A79C84-8055-41D9-95CD-0BF572AC241B}
+	EndGlobalSection
+EndGlobal
