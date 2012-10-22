@@ -22,5 +22,16 @@ namespace Witchr.Core.Properties {
                 return defaultInstance;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        public global::FlickrNet.OAuthAccessToken OAuthToken {
+            get {
+                return ((global::FlickrNet.OAuthAccessToken)(this["OAuthToken"]));
+            }
+            set {
+                this["OAuthToken"] = value;
+            }
+        }
     }
 }

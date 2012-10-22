@@ -1,7 +1,7 @@
 ﻿<Application x:Class="Witchr.Core.Wpf.WitchrApp"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             StartupUri="/Wpf/SignInWindow.xaml">
+             StartupUri="/Wpf/PictureWindow.xaml">
     <Application.Resources>
          
     </Application.Resources>

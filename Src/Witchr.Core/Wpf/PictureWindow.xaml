@@ -1,0 +1,10 @@
+﻿<Window x:Class="Witchr.Core.Wpf.PictureWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="PictureWindow" WindowStyle="None"
+        WindowState="Maximized" Background="Black" KeyUp="Window_KeyUp"
+        Topmost="True">
+    <Grid>
+        <Image Name="flickrImage" />
+    </Grid>
+</Window>
